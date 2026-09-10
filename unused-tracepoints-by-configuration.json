@@ -411,5 +411,92 @@
     "rcu_segcb_stats",
     "rcu_sr_normal",
     "rcu_watching"
+  ],
+  "configs/arm64/7974ef1cd61b1535d3eb.config": [
+    "nmi_noise"
+  ],
+  "configs/arm64/91cc162b7af3f37c4d34.config": [
+    "instruction_emulation",
+    "kvm_arm_set_dreg32",
+    "kvm_fpu",
+    "kvm_mmio_emulate"
+  ],
+  "configs/arm64/f45f336be993820b97e1.config": [
+    "dpu_crtc_runtime_resume",
+    "dpu_enc_atomic_check",
+    "dpu_enc_atomic_check_flags",
+    "dpu_rm_reserve_intf",
+    "dpu_trace_counter"
+  ],
+  "configs/arm/c4bcbe89371b2ebe7636.config": [
+    "armada_ovl_plane_work"
+  ],
+  "configs/arm64/93124a390f55a62c148d.config": [
+    "xreap_rgcow_limits",
+    "xrep_cow_free_staging",
+    "xrep_nlinks_set_record"
+  ],
+  "configs/mips/809610faf5e0a4807d0d.config": [
+    "kvm_asid_change"
+  ],
+  "configs/powerpc/1d6824bee474f5257c9d.config": [
+    "mlx5e_rep_neigh_update"
+  ],
+  "configs/powerpc/4da944be6fa2e6faec16.config": [
+    "doorbell_entry",
+    "doorbell_exit",
+    "tlbie"
+  ],
+  "configs/powerpc/74f3aa0b37776c3afd7b.config": [
+    "hugepage_update_pud"
+  ],
+  "configs/powerpc/ba135aed53ec4d995774.config": [
+    "kvm_gtlb_write",
+    "kvm_stlb_inval",
+    "kvm_stlb_write"
+  ],
+  "configs/powerpc/c115287c9609cadbad75.config": [
+    "tlbia"
+  ],
+  "configs/riscv/2237cc3f67797ba38252.config": [
+    "finish_task_reaping",
+    "mm_filemap_fault",
+    "mm_filemap_map_pages",
+    "rss_stat",
+    "skip_task_reaping",
+    "start_task_reaping",
+    "wake_reaper"
+  ],
+  "configs/s390/9d704cf1df1ee23e020a.config": [
+    "nfs_atomic_open_enter",
+    "nfs_atomic_open_exit"
+  ],
+  "configs/s390/bde9bb6f7511bd26d0b0.config": [
+    "amdgpu_dm_atomic_state_template",
+    "amdgpu_dm_dc_pipe_state",
+    "dcn_fpu",
+    "dcn_optc_lock_unlock_state",
+    "kvm_async_pf_not_present",
+    "kvm_async_pf_ready",
+    "kvm_async_pf_repeated_fault",
+    "kvm_mmio",
+    "kvm_s390_create_vm",
+    "kvm_s390_gmap_notifier",
+    "kvm_try_async_get_page"
+  ],
+  "configs/s390/cbb667edb6720f7490f5.config": [
+    "xrep_rtbitmap_load",
+    "xrep_rtbitmap_load_word",
+    "xrep_rtbitmap_load_words"
+  ],
+  "configs/sparc/13da0572fe2cfae45936.config": [
+    "ice_tx_tstamp_complete",
+    "ice_tx_tstamp_fw_done",
+    "ice_tx_tstamp_fw_req",
+    "ice_tx_tstamp_request"
+  ],
+  "configs/um/552aadc7828433ac2fbe.config": [
+    "xe_vma_userptr_invalidate",
+    "xe_vma_userptr_invalidate_complete"
   ]
 }
